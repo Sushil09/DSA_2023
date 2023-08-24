@@ -1,4 +1,4 @@
-package org.example;
+package org.dsa2023;
 
 /**
  * Hello world!
