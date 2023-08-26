@@ -12,7 +12,6 @@ public class GenerateAllPermutations {
 //        generateAllPerutationsWithFlagTest(a, new ArrayList<>(), permuteList, visited);
         generateALlPermutations(a,0,permuteList);
         permuteList.forEach(System.out::println);
-
     }
 
     private static void generateAllPerutationsWithFlagTest(int[] arr, ArrayList<Integer> list, List<List<Integer>> permuteList, boolean[] visited) {
